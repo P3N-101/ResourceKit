@@ -1,0 +1,97 @@
+<entities >
+  <entity name="pp_icon" displayname="Icon" etc="10442" primaryidfield="pp_iconid" primarynamefield="pp_name" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Description" name="pp_description" type="string" customfield="true" />
+      <field displayname="Icon" name="pp_iconid" type="guid" primaryKey="true" />
+      <field displayname="Icon Pack" name="pp_iconpackid" type="entityreference" lookupType="pp_iconpack" customfield="true" />
+      <field displayname="ID" name="pp_id" type="number" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="pp_name" type="string" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Pack" name="pp_pack" type="string" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Size" name="pp_size" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="svg" name="pp_svg" type="string" customfield="true" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Unicode" name="pp_unicode" type="string" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="pp_iconpack" displayname="Icon Pack" etc="10467" primaryidfield="pp_iconpackid" primarynamefield="pp_author" disableplugins="false">
+    <fields>
+      <field displayname="Author" name="pp_author" type="string" customfield="true" />
+      <field displayname="Author Link" name="pp_authorlink" type="string" customfield="true" />
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="GitHub Licence" name="pp_githublicence" type="string" customfield="true" />
+      <field displayname="GitHub Link" name="pp_githublink" type="string" customfield="true" />
+      <field displayname="Icon Pack" name="pp_iconpackid" type="guid" primaryKey="true" />
+      <field displayname="Icon SVG" name="pp_iconsvg" type="string" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="LoadingStatus" name="pp_loadingstatuscode" type="optionsetvalue" customfield="true" />
+      <field displayname="Logo" name="pp_logo" type="imagedata" customfield="true" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Name" name="pp_name" type="string" customfield="true" />
+      <field displayname="Order" name="pp_order" type="number" customfield="true" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="pp_logoid" name="pp_logoid" type="guid" customfield="true" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="ShortCode" name="pp_shortcode" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Total" name="pp_total" type="number" customfield="true" />
+      <field displayname="Type" name="pp_type" type="optionsetvalue" customfield="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version" name="pp_version" type="string" customfield="true" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+  <entity name="pp_transformation" displayname="Transformation" etc="10428" primaryidfield="pp_transformationid" primarynamefield="pp_reference" disableplugins="false">
+    <fields>
+      <field displayname="Created By" name="createdby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created By (Delegate)" name="createdonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Created On" name="createdon" type="datetime" />
+      <field displayname="Icon Pack" name="pp_iconpackid" type="entityreference" lookupType="pp_iconpack" customfield="true" />
+      <field displayname="Import Sequence Number" name="importsequencenumber" type="number" />
+      <field displayname="Modified By" name="modifiedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified By (Delegate)" name="modifiedonbehalfby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Modified On" name="modifiedon" type="datetime" />
+      <field displayname="Owner" name="ownerid" type="owner" />
+      <field displayname="Owning Business Unit" name="owningbusinessunit" type="entityreference" lookupType="businessunit" />
+      <field displayname="Owning Team" name="owningteam" type="entityreference" lookupType="team" />
+      <field displayname="Owning User" name="owninguser" type="entityreference" lookupType="systemuser" />
+      <field displayname="Record Created On" name="overriddencreatedon" type="datetime" />
+      <field displayname="Reference" name="pp_reference" type="string" customfield="true" />
+      <field displayname="Status" name="statecode" type="state" />
+      <field displayname="Status Reason" name="statuscode" type="status" />
+      <field displayname="Time Zone Rule Version Number" name="timezoneruleversionnumber" type="number" />
+      <field displayname="Transform From" name="pp_transformfrom" type="string" customfield="true" />
+      <field displayname="Transform To" name="pp_transformto" type="string" customfield="true" />
+      <field displayname="Transformation" name="pp_transformationid" type="guid" primaryKey="true" />
+      <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
+      <field displayname="Version Number" name="versionnumber" type="bigint" />
+    </fields>
+    <relationships />
+  </entity>
+</entities>

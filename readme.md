@@ -5,6 +5,7 @@
 The ultimate Icon resource for use in Power Apps, 
 
 Here's what the PensPlace Power Apps Resource Kit's ICONS has to offer:
+
 ✅ Over 110,000 icons at your fingertips
 
 ✅ Download SVGs for use as web resources

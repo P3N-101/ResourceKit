@@ -6,10 +6,14 @@ The ultimate Icon resource for use in Power Apps,
 
 Here's what the PensPlace Power Apps Resource Kit's ICONS has to offer:
 ✅ Over 110,000 icons at your fingertips
+
 ✅ Download SVGs for use as web resources
+
 ✅ Use provided code directly in a Power Apps Image control
+
 ✅ Access over 5,000 Microsoft Icons in the Icon Browser
 ![Icon Browser](/Assets/ms-icons.png)
+
 ✅ Explore over 800 customizable animated Icons
 ![Animated Icons](/Assets/animated.gif)
 ✅ Update colors with support for DuoTone Icons

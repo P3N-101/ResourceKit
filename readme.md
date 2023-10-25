@@ -22,8 +22,8 @@ The ultimate Icon resource for use in Power Apps,
 - [PowerCAT Creator Kit](https://github.com/microsoft/powercat-creator-kit)
 - [Scott Durow's PowerDragDrop](https://github.com/scottdurow/power-drag-drop)
 
-1.Install the Prerequisites0 
-2. Import the Solution PowerAppsResourceKit_1_0_0_7_managed.zip 
+1. Install the Prerequisites0 
+2. Import the Solution PowerAppsResourceKit_1_0_0_6_managed.zip 
 3. Use the [Configuration Migration tool](https://learn.microsoft.com/en-us/power-platform/alm/configure-and-deploy-tools) to import the data-241023.zip file.
 
 ## Icon Packs

@@ -5,15 +5,15 @@
 
 🔄 Improved Loading Process: 
 
-    The latest update optimizes the Icon Gallery within the Canvas app. Previously, the app would download the entire Icon Pack, potentially slowing down the app due to loading thousands of records into memory. Now, the update ensures that only the icons required for the current view are loaded, significantly enhancing loading times.
+The latest update optimizes the Icon Gallery within the Canvas app. Previously, the app would download the entire Icon Pack, potentially slowing down the app due to loading thousands of records into memory. Now, the update ensures that only the icons required for the current view are loaded, significantly enhancing loading times.
 
 🖼️ App Renamed: 
 
-    The Canvas app is now known as "Icons" following this update.
+The Canvas app is now known as "Icons" following this update.
 
 🆕 New Feature Highlight:
 
-    🧩 Upload as Web Resource: Say goodbye to default icons in Model-Driven apps! You can now upload your selected icon as a Web Resource directly into the current environment. This feature enables you to seamlessly integrate your preferred icons into your tables, reducing the use of generic icons like the puzzle piece. (my pet hate)
+🧩 Upload as Web Resource: Say goodbye to default icons in Model-Driven apps! You can now upload your selected icon as a Web Resource directly into the current environment. This feature enables you to seamlessly integrate your preferred icons into your tables, reducing the use of generic icons like the puzzle piece. (my pet hate)
 
 ![Web Resource](/Assets/webresource.png)
 

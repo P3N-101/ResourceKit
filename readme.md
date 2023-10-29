@@ -1,6 +1,16 @@
 # Welcome to the PensPlace Power Apps Resource Kit
 
-## Icons
+
+### Icons Canvas App Updates 29/10/2023 v1.0.0.7
+
+- Canvas app has been updated so that the Icon Gallery no longer downloads the whole Icon Pack, this could slow down the app as its loading thousands of records into memory.  It now only loads the page in view.
+- Canvas app has been renamed __Icons__
+
+***__NEW FEATURE__***
+
+One of my pet hates is seeing Model Driven apps with the 🧩 (puzzle) icon, so now you can now upload the selected icon as a Web Resource in the current environment. So that you can add it directly to your tables!
+![Web Resource](/Assets/webresource.png)
+# Icons
 
 The ultimate Icon resource for use in Power Apps, 
 
@@ -29,7 +39,7 @@ Here's what the PensPlace Power Apps Resource Kit's ICONS has to offer:
 - [Scott Durow's PowerDragDrop](https://github.com/scottdurow/power-drag-drop)
 
 1. Install the Prerequisites0 
-2. Import the Solution PowerAppsResourceKit_1_0_0_6_managed.zip 
+2. Import the Solution PowerAppsResourceKit_1_0_0_7_managed.zip 
 3. Use the [Configuration Migration tool](https://learn.microsoft.com/en-us/power-platform/alm/configure-and-deploy-tools) to import the data-241023.zip file.
 
 ## Icon Packs

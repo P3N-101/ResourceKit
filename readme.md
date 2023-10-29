@@ -3,13 +3,20 @@
 
 ### Icons Canvas App Updates 29/10/2023 v1.0.0.7
 
-- Canvas app has been updated so that the Icon Gallery no longer downloads the whole Icon Pack, this could slow down the app as its loading thousands of records into memory.  It now only loads the page in view.
-- Canvas app has been renamed __Icons__
+🔄 Improved Loading Process: 
 
-***__NEW FEATURE__***
+    The latest update optimizes the Icon Gallery within the Canvas app. Previously, the app would download the entire Icon Pack, potentially slowing down the app due to loading thousands of records into memory. Now, the update ensures that only the icons required for the current view are loaded, significantly enhancing loading times.
 
-One of my pet hates is seeing Model Driven apps with the 🧩 (puzzle) icon, so now you can now upload the selected icon as a Web Resource in the current environment. So that you can add it directly to your tables!
+🖼️ App Renamed: 
+
+    The Canvas app is now known as "Icons" following this update.
+
+🆕 New Feature Highlight:
+
+    🧩 Upload as Web Resource: Say goodbye to default icons in Model-Driven apps! You can now upload your selected icon as a Web Resource directly into the current environment. This feature enables you to seamlessly integrate your preferred icons into your tables, reducing the use of generic icons like the puzzle piece. (my pet hate)
+
 ![Web Resource](/Assets/webresource.png)
+
 # Icons
 
 The ultimate Icon resource for use in Power Apps, 

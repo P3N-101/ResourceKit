@@ -1,7 +1,7 @@
 # Welcome to the PensPlace Power Apps Resource Kit
 
 
-### Icons Canvas App Updates 29/10/2023 v1.0.0.7
+### Icons Canvas App Updates 29/10/2023 v1.0.0.8
 
 🔄 Improved Loading Process: 
 

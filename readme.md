@@ -1,7 +1,7 @@
 # Welcome to the PensPlace Power Apps Resource Kit
 
 Visit the new documentation site for updates:
-[ResourceKit Documentation](https://resoucekit.pensplace.co.uk)
+[ResourceKit Documentation](https://resourcekit.pensplace.co.uk)
 
 # Icons
 
